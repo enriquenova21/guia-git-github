@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guía de Git y GitHub con IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#inicio">git&nbsp;guía</a>
+    <nav>
+      <a href="#que-es">Qué es</a>
+      <a href="#pasos">Paso a paso</a>
+      <a href="#comandos">Comandos</a>
+      <a href="#ia">Usar IA</a>
+      <a href="#faq">Errores</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h1 class="neon">Git y GitHub<br>sin miedo</h1>
+      <p>Una guía hecha con ayuda de IA para subir tu primer proyecto: de la carpeta en tu escritorio hasta el repositorio público.</p>
+      <div class="avance">
+        <div class="barra"><div id="relleno"></div></div>
+        <span id="avance-texto">0 de 0 pasos completados</span>
+      </div>
+    </section>
+
+    <section id="que-es">
+      <h2>Qué es cada cosa</h2>
+      <div class="dos">
+        <article class="tarjeta azul">
+          <h3>Git</h3>
+          <p>Programa que corre en tu computadora y guarda el historial de tu proyecto. Cada commit es una foto de tus archivos en ese momento, con un mensaje que explica qué cambió.</p>
+        </article>
+        <article class="tarjeta violeta">
+          <h3>GitHub</h3>
+          <p>Sitio web donde guardas tus repositorios en internet. Sirve de copia de seguridad, de portafolio y para trabajar en equipo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pasos">
+      <h2>Paso a paso</h2>
+      <p class="nota">Marca cada paso cuando lo termines. Tu avance se guarda en el navegador.</p>
+      <ol id="pasos-lista" class="pasos"></ol>
+    </section>
+
+    <section id="comandos">
+      <h2>Comandos que vas a usar</h2>
+      <div class="buscador">
+        <input id="buscar" type="search" placeholder="Busca un comando, por ejemplo: commit" aria-label="Buscar comando">
+      </div>
+      <div id="categorias" class="chips"></div>
+      <div id="comandos-lista" class="comandos"></div>
+    </section>
+
+    <section id="ia">
+      <h2>Cómo usar IA para aprender Git</h2>
+      <p class="nota">La IA explica, pero tú ejecutas los comandos y lees los resultados. Copia estos mensajes y adáptalos a tu caso.</p>
+      <div id="prompts" class="prompts"></div>
+    </section>
+
+    <section id="faq">
+      <h2>Errores comunes</h2>
+      <div id="faq-lista" class="faq"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto de la Unidad 5: Repositorio en GitHub. Hecho con HTML, CSS, JavaScript y ayuda de IA.</p>
+  </footer>
+
+  <div id="aviso" class="aviso" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
